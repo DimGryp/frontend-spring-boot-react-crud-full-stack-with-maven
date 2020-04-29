@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import CourseDataService from  "../service/CourseDataService";
 import INSTRUCTOR from "../service/CourseDataService";
+import {Link} from "react-router-dom";
 class ListCoursesComponent extends Component {
     constructor(props) {
         super(props)
@@ -87,7 +88,14 @@ class ListCoursesComponent extends Component {
                 <div className="row">
                     <button className="btn btn-success" onClick={this.addCourseClicked}>Add</button>
                 </div>
+                <div>
+
+                    <ul>
+                        <li><Link to="/about">Click here for About page</Link></li>
+                    </ul>
+                </div>
             </div>
+
         )
     }
 }
