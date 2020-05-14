@@ -20,7 +20,14 @@ class CourseDataService {
         return axios.get(`${INSTRUCTOR_API_URL}/courses/${id}`);
     }
 
+    updateCourse(name, id, course) {
+        return axios.put(`${INSTRUCTOR_API_URL}/courses/${id}`, course);
+    }
 
+    createCourse(name, course) {
+        return axios.post(`${INSTRUCTOR_API_URL}/courses/`, course);
+
+    }
 }
 
 export default new CourseDataService()
