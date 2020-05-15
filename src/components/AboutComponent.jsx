@@ -1,6 +1,7 @@
 import * as React from "react";
 
 //test comment
+//test3
 class AboutComponent  extends React.Component {
     render() {
         return (
