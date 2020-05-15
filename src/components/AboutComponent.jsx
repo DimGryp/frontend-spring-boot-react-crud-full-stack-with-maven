@@ -2,6 +2,7 @@ import * as React from "react";
 
 //test comment
 //test3
+//added test4
 class AboutComponent  extends React.Component {
     render() {
         return (
