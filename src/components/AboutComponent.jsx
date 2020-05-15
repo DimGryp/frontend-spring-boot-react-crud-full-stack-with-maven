@@ -9,6 +9,7 @@ import * as React from "react";
 //added test8
 //added test9
 //added test10
+//added test 11
 class AboutComponent  extends React.Component {
     render() {
         return (
