@@ -4,6 +4,7 @@ import * as React from "react";
 //test3
 //added test4
 //added test5
+//added test6
 class AboutComponent  extends React.Component {
     render() {
         return (
