@@ -20,7 +20,7 @@ class CourseComponent extends Component {
     }
     onSubmit(values) {
         //let username = INSTRUCTOR
-       // let password="test"
+       let password="test"
         let course = {
             id: this.state.id,
             description: values.description,
