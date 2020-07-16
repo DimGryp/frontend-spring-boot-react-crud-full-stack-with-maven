@@ -19,8 +19,8 @@ class CourseComponent extends Component {
         this.onCancel=this.onCancel.bind(this);
     }
     onSubmit(values) {
-        let username = INSTRUCTOR
-        let password="test"
+        //let username = INSTRUCTOR
+       // let password="test"
         let course = {
             id: this.state.id,
             description: values.description,
