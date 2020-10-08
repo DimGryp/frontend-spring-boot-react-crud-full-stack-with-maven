@@ -19,7 +19,7 @@ class CourseComponent extends Component {
         this.onCancel=this.onCancel.bind(this);
     }
     onSubmit(values) {
-        //let username = INSTRUCTOR
+        let username = INSTRUCTOR
        let password="test";
         let password="1";
         let password="2";
