@@ -15,6 +15,7 @@ import * as React from "react";
 //added test14 local
 class AboutComponent  extends React.Component {
     render() {
+        let password="test";
         return (
             <div>
                 <h2>This is an About page</h2>
