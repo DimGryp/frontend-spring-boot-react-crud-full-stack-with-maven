@@ -19,10 +19,7 @@ class CourseComponent extends Component {
         this.onCancel=this.onCancel.bind(this);
     }
     onSubmit(values) {
-        let username = INSTRUCTOR
-       let password="test";
-        let password="1";
-        let password="2";
+
 
         let course = {
             id: this.state.id,
@@ -46,7 +43,12 @@ class CourseComponent extends Component {
     }
 
     validate(values) {
+
         let errors = {}
+        let username = INSTRUCTOR
+     let password="test"
+        // let password="1"
+        // let password="2"
         if (!values.description) {
             errors.description = 'Enter a Description'
         } else if (values.description.length < 5) {
